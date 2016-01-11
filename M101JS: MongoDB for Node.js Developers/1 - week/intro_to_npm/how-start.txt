@@ -1,0 +1,8 @@
+1º create app.js
+2º create package.js
+3º npm install 
+4º node app.js
+
+------------------- 
+*----------------*
+------------------
