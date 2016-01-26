@@ -44,7 +44,7 @@ function queryDocument(options) {
         }
     };
 
-    if ("employees" in options) {
+    if ("employees" in options) { //caso for passado por parâmetro
         query.number_of_employees = { "$gte": options.employees };
     }
         
@@ -62,14 +62,12 @@ function commandLineOptions() {
     ]);
     
     var options = cli.parse()
-    if ( !(("firstYear" in options) && ("lastYear" in options))) {
+    if ( !(("firstYear" in options) && ("lastYear" in options))) { //se não passar as opções faça:
         console.log(cli.getUsage({
-            title: "Usage",
-            description: "The first two options below are required. The rest are optional."
+            title: "Use",
+            description: "O uso de parâmetros são obrigatórios, então use as opções =)"
         }));
         process.exit();
     }
-
     return options;
-    
 }
