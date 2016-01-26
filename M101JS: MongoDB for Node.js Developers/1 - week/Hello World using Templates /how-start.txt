@@ -1,0 +1,5 @@
+install dependecies:
+
+npm install express
+npm install consolidate
+npm install nunjucks

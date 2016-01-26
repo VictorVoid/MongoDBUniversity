@@ -1,0 +1,14 @@
+{
+  "name": "intro_to_npm",
+  "version": "0.0.0",
+  "description": "npm introduction",
+  "main": "app.js",
+  "dependencies": {
+	"consolidate": "~0.13.1",
+	"express": "~3.2.6",
+	"nunjucks":"~2.2.0",
+	"mongodb": "~2.1.3"
+	},
+  "author": "Victor Igor",
+  "license": "BSD"
+}
